@@ -1,24 +1,42 @@
 p span {
        color: red;
        font-weight:bold;
-       }
+}
 body {
        color:black;
        background-color:white;
-       background-image: url("BG1.jpg");
+       background-image: url("http://seinesaintdenis.centres-sociaux.fr/files/2017/05/fond-site-V2.png");
        margin:1;
        text-align:center;
        font-size:16px;
        font-family:sans-serif;
-
       }
-
 h1 {
     color: red;
     font-weight:bold;
 }
-
 h2 {
     color: green;
     font-weight:bold;
+}
+caption{
+  color : purple;
+  font-weight:bold;
+  font-size:20px;
+}
+table , th , td{
+  border:2px solid black;
+  border-collapse: collapse;
+  border-color: grey
+  margin:auto;
+  margin-left:25%;
+}
+.bloc{
+margin-bottom: auto;
+}
+.retour{
+  width:100px;
+  height:100px;
+  float: right;
+  display: flex;
 }
