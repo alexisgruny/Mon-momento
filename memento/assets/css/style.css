@@ -24,12 +24,16 @@ caption{
   font-weight:bold;
   font-size:20px;
 }
-table , th , td{
+table{
   border:2px solid black;
   border-collapse: collapse;
-  border-color: grey
-  margin:auto;
-  margin-left:25%;
+  border-color: grey;
+  margin: 0 auto;
+}
+td ,th{
+  border:2px solid black;
+  border-collapse: collapse;
+  border-color: grey;
 }
 .bloc{
 margin-bottom: auto;
